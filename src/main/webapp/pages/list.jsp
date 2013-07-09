@@ -20,10 +20,8 @@
 			</tr>
 		</thead>
 		<%
-		
 			List<Entity> messages = (List<Entity>)request.getAttribute("messagesList");
 		    for(Entity e : messages){
-		     
 		%>
 			<tr>
 				<td><%=e.getProperty("to") %></td>
